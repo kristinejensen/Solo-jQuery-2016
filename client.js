@@ -30,5 +30,4 @@ var blueClickCounter = 1;
     blueClickCounter++;
   });
 
-
 }); // do not remove
