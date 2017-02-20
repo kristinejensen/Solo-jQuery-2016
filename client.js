@@ -1,10 +1,10 @@
 $(document).ready(function() {
   console.log('jquery is running');
 
-var redClickCounter = 1;
-var yellowClickCounter = 1;
-var greenClickCounter = 1;
-var blueClickCounter = 1;
+  var redClickCounter = 1;
+  var yellowClickCounter = 1;
+  var greenClickCounter = 1;
+  var blueClickCounter = 1;
 
   $('#red-button').on('click', function (){
     $('.container').append('<div class="red-cube"></div>');
@@ -30,4 +30,4 @@ var blueClickCounter = 1;
     blueClickCounter++;
   });
 
-}); // do not remove
+}); 
